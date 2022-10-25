@@ -14,11 +14,7 @@ The code is a list of commands that can be used in the terminal to create, remov
 If a file does not exist in the current directory, then it is moved to a folder called "Files being Moved". The code creates a folder with the name of folder_name_to and moves all the files in that folder to another one called contents.  Finally, remove_folder() removes the "Files being Moved" folder if need_output is True; otherwise create_folder() creates a new folder called "Files being Moved/New Folder". The code will create a folder called "Files being Moved" and then move all the files in that folder to a new location. It does this by opening up every file in the directory with open() and reading its content into a list, closing all opened files with close() and removing any folders that are created from this process if need_output is true (which would be when we create another one), and finally iterating over each item on our list to write them to their destination folders. If you want to see the output of the function, set it to True.
  Next comes a function call with pre_cmd as its argument. Pre_cmd is not equal to anything at all because it was declared earlier in the program as being undefined (i = 0). The code is a code that will allow the user to input a command, and then execute the corresponding function.
 # Screenshots
- <img src="https://imgs.developpaper.com/imgs/1981858-20201110214849857-1947645242.png"> <img src="https://i.morioh.com/2020/04/23/3bb87a1e763d.jpg"> <img src="https://i.ytimg.com/vi/_zeS0UrjMLs/maxresdefault.jpg">
+ <img src="https://imgs.developpaper.com/imgs/1981858-20201110214849857-1947645242.png"> <img src="https://i.morioh.com/2020/04/23/3bb87a1e763d.jpg"> 
 # Tech Used
  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
       
-
-      
-<!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
-    
